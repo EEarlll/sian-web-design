@@ -69,3 +69,11 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid slategrey;
 }
 
+.letter-wrapper {
+  display: inline-block;
+  perspective: 600px; /* gives 3D depth */
+}
+.x {
+  display: inline-block;
+  transform-style: preserve-3d;
+}
