@@ -1,50 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   gsap.registerPlugin(ScrollTrigger);
 
-  // --- MASTER TIMELINE for loading animations ---
-  //   const masterTl = gsap.timeline();
-
-  //   // 1. Navbar Animation
-  //   masterTl.from("nav > *", {
-  //     y: -30,
-  //     opacity: 0,
-  //     duration: 0.8,
-  //     stagger: 0.1,
-  //     ease: "power3.out",
-  //   });
-
-  // 2. Hero Section Animation
-  const heroTl = gsap.timeline();
-  heroTl
-    .from("[data-anim='hero-badge']", {
-      scale: 0.5,
-      opacity: 0,
-      duration: 0.6,
-      ease: "power3.out",
-    })
-    .from(
-      "[data-anim='hero-title']",
-      { y: 50, opacity: 0, duration: 0.8, ease: "power3.out" },
-      "-=0.4"
-    )
-    .from(
-      "[data-anim='hero-p']",
-      { y: 30, opacity: 0, duration: 0.7, ease: "power3.out" },
-      "-=0.6"
-    )
-    .from(
-      "[data-anim='hero-buttons'] > *",
-      {
-        y: 20,
-        opacity: 0,
-        stagger: 0.15,
-        duration: 0.6,
-        ease: "power3.out",
-      },
-      "-=0.5"
-    );
-
-  //   masterTl.add(heroTl, "-=0.5");
 
   // 3. Pulsating Glow Effect
   gsap.utils.toArray("[data-anim='glow']").forEach((glow) => {
@@ -59,20 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // --- SCROLL-TRIGGERED ANIMATIONS ---
-
-  // 1. Main Card Animation
-  gsap.from("[data-anim='main-card']", {
-    scrollTrigger: {
-      trigger: "[data-anim='card-section']",
-      start: "top 80%",
-      toggleActions: "play none none none",
-    },
-    y: 100,
-    scale: 0.9,
-    opacity: 0,
-    duration: 1.2,
-    ease: "power4.out",
-  });
 
   // 2. Features Section Animation
   gsap.utils.toArray(".feature-item").forEach((item) => {
