@@ -193,16 +193,18 @@ tl2
     ease: "power2.out",
   });
 
-tl2.fromTo(
+tl2
+  .fromTo(
     ".e2",
     { y: -80, opacity: 0, rotate: -90 },
     { y: 20, opacity: 1, rotate: 0, duration: 0.6, ease: "power4.out" },
     "-=0.5"
-).to(".e2", {
+  )
+  .to(".e2", {
     y: 0,
     duration: 0.4,
     ease: "bounce.out",
-});
+  });
 
 // Worm Animation
 gsap.set(".worm", { x: 28, y: 64 });
