@@ -17,7 +17,7 @@ html {
   position: absolute;
   inset: 0;
   background: inherit; /* uses same background image */
-  filter: blur(8px);  /* adjust blur intensity */
+  filter: blur(8px); /* adjust blur intensity */
   z-index: 0;
 }
 
@@ -93,4 +93,8 @@ body::-webkit-scrollbar-thumb {
 .x {
   display: inline-block;
   transform-style: preserve-3d;
+}
+
+.custom-shadow {
+  box-shadow: inset 0px -31px 13px -1px rgba(0,0,0,0.64);
 }
