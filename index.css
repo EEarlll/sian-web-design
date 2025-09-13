@@ -1,0 +1,42 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; /* Adjust this value to match your navbar's height */
+}
+
+.hero {
+  background-color: #0a0014;
+  background-image: url('Images/Grid.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+.animate-marquee-reverse {
+  display: flex;
+  width: max-content;
+  animation: marquee-reverse 25s linear infinite;
+}
+
+/* Prevents flash of unstyled content before GSAP runs */
+.gsap-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+

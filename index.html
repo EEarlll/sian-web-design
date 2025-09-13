@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EULEN - FiveM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="bg-[#0a0014] text-white font-sans">
+    <!-- Navbar -->
+    <nav
+      class="sticky top-0 z-50 flex justify-between items-center px-10 py-6 backdrop-blur-md"
+    >
+      <a class="flex gap-2 cursor-pointer" href="/">
+        <img src="Images/logo.gif" alt="" class="h-8 w-8"/>
+        <h1 class="text-2xl font-bold">PIXEL2K</h1>
+      </a>
+
+      <ul class="hidden md:flex gap-8 text-gray-300">
+        <li><a href="#features" class="hover:text-white">Features</a></li>
+
+        <li>
+          <a href="#how-it-works" class="hover:text-white">How It Works</a>
+        </li>
+
+        <li>
+          <a href="#testimonials" class="hover:text-white">Testimonials</a>
+        </li>
+
+        <li><a href="#pricing" class="hover:text-white">Pricing</a></li>
+
+        <li><a href="#faq" class="hover:text-white">FAQ</a></li>
+      </ul>
+      <a
+        href="#"
+        class="bg-gradient-to-r from-purple-500 to-indigo-500 px-4 py-2 rounded-full text-sm font-semibold hover:opacity-90"
+      >
+        Join our Discord
+      </a>
+    </nav>
+    <!-- Hero -->
+    <section
+      class="flex flex-col items-center justify-center text-center px-4 sm:px-6 py-16 md:py-20 relative hero"
+    >
+      <div class="">
+        <div
+          class="bg-purple-800/30 border border-purple-500 px-3 py-1 rounded-full text-xs sm:text-sm mb-6 w-fit mx-auto gsap-hidden"
+          data-anim="hero-badge"
+        >
+          ⭐ Your choice #1 for FiveM
+        </div>
+        <h2
+          class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight max-w-3xl gsap-hidden"
+          data-anim="hero-title"
+        >
+          Boost your <span class="text-purple-400">FiveM experience</span> with
+          the most complete cheat on the market
+        </h2>
+        <p
+          class="mt-6 text-gray-300 text-sm sm:text-base flex items-center justify-center gap-2 max-w-xl mx-auto gsap-hidden"
+          data-anim="hero-p"
+        >
+          ✅ Continuously Updated and Stealthy — Ensuring No Global Bans.
+        </p>
+        <div
+          class="mt-8 flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center gsap-hidden"
+          data-anim="hero-buttons"
+        >
+          <a
+            href="#"
+            class="bg-purple-600 hover:bg-purple-700 px-6 py-3 rounded-full font-semibold text-sm sm:text-base text-white text-center"
+          >
+            Check Features
+          </a>
+          <a
+            href="#"
+            class="bg-gradient-to-r from-purple-500 to-pink-500 hover:opacity-90 px-6 py-3 rounded-full font-semibold text-sm sm:text-base text-white text-center"
+          >
+            Buy Now 🧙
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-lg sm:max-w-xl md:max-w-3xl h-40 sm:h-56 md:h-72 bg-purple-500/40 blur-[160px] rounded-full"
+        data-anim="glow"
+      ></div>
+      <div
+        class="flex items-center justify-center relative px-4 mt-11"
+        data-anim="card-section"
+      >
+        <div
+          class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-lg sm:max-w-xl md:max-w-3xl h-48 sm:h-64 md:h-96 bg-purple-500/40 blur-[180px] rounded-full"
+          data-anim="glow"
+        ></div>
+
+        <div
+          class="relative w-full max-w-md sm:max-w-2xl md:max-w-4xl lg:max-w-5xl rounded-2xl border border-gray-700/30 overflow-hidden shadow-lg gsap-hidden"
+          data-anim="card-section"
+        >
+          <img
+            src="Images/menu.png"
+            alt="Menu"
+            class="relative w-full h-auto object-cover z-10"
+            data-anim="main-card"
+          />
+
+          <div
+            class="absolute bottom-0 left-0 w-full h-20 sm:h-28 md:h-40 bg-gradient-to-t from-black via-black/60 to-transparent z-20"
+          ></div>
+        </div>
+      </div>
+    </section>
+    <!-- Features -->
+    <section class="relative bg-[#0a0014] py-24 overflow-hidden" id="features">
+      <div
+        class="absolute inset-0 bg-[url('Images/grid-me.png')] opacity-10"
+      ></div>
+
+      <div class="relative max-w-6xl mx-auto px-6 space-y-32">
+        <div
+          class="absolute right-0 w-[900px] h-[300px] bg-purple-600 rounded-full blur-[70px] opacity-40 -rotate-45"
+          data-anim="glow"
+        ></div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center feature-item"
+        >
+          <div class="gsap-hidden" data-anim="feature-text">
+            <span
+              class="inline-block px-4 py-1 rounded-full bg-purple-600/20 text-purple-400 text-sm font-semibold mb-4"
+              >🎯 Features</span
+            >
+            <h2 class="text-4xl font-bold text-white mb-4">
+              Eulen <span class="text-purple-400">Aimbot</span>
+            </h2>
+            <p class="text-gray-300 text-lg">
+              With our fully customizable aim assist and versatile options,
+              choose <strong>‘legit’</strong> for a subtle edge or
+              <strong>‘rage’</strong> to dominate and leave no one standing!
+            </p>
+          </div>
+          <div class="relative gsap-hidden" data-anim="feature-image">
+            <img
+              src="https://placehold.co/600x350/png?text=Aimbot+Screenshot"
+              alt="Feature"
+              class="rounded-2xl shadow-lg border border-purple-800/40"
+            />
+          </div>
+        </div>
+
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center feature-item"
+        >
+          <div
+            class="relative order-1 md:order-none gsap-hidden"
+            data-anim="feature-image"
+          >
+            <img
+              src="https://placehold.co/600x350/png?text=ESP+Screenshot"
+              alt="Feature"
+              class="rounded-2xl shadow-lg border border-purple-800/40"
+            />
+          </div>
+          <div class="gsap-hidden" data-anim="feature-text">
+            <span
+              class="inline-block px-4 py-1 rounded-full bg-purple-600/20 text-purple-400 text-sm font-semibold mb-4"
+              >🛰 ESP</span
+            >
+            <h2 class="text-4xl font-bold text-white mb-4">
+              Advanced <span class="text-purple-400">ESP</span>
+            </h2>
+            <p class="text-gray-300 text-lg">
+              Gain the ultimate advantage with player and vehicle ESP – track
+              movements, identify threats, and never be caught off guard again!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative max-w-6xl mx-auto px-6 space-y-32 mt-32">
+        <div
+          class="absolute left-0 w-[900px] h-[300px] bg-purple-600 rounded-full blur-[70px] opacity-40 rotate-45"
+          data-anim="glow"
+        ></div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center feature-item"
+        >
+          <div class="gsap-hidden" data-anim="feature-text">
+            <span
+              class="inline-block px-4 py-1 rounded-full bg-purple-600/20 text-purple-400 text-sm font-semibold mb-4"
+              >🔧 More</span
+            >
+            <h2 class="text-4xl font-bold text-white mb-4">
+              Powerful <span class="text-purple-400">Tools</span>
+            </h2>
+            <p class="text-gray-300 text-lg">
+              Unlock a suite of powerful tools designed to give you complete
+              control. From unique vehicle modifications to player options.
+            </p>
+          </div>
+          <div class="relative gsap-hidden" data-anim="feature-image">
+            <img
+              src="https://placehold.co/600x350/png?text=Tools+Screenshot"
+              alt="Feature"
+              class="rounded-2xl shadow-lg border border-purple-800/40"
+            />
+          </div>
+        </div>
+
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center feature-item"
+        >
+          <div
+            class="relative order-1 md:order-none gsap-hidden"
+            data-anim="feature-image"
+          >
+            <img
+              src="https://placehold.co/600x350/png?text=Stealth+Screenshot"
+              alt="Feature"
+              class="rounded-2xl shadow-lg border border-purple-800/40"
+            />
+          </div>
+          <div class="gsap-hidden" data-anim="feature-text">
+            <span
+              class="inline-block px-4 py-1 rounded-full bg-purple-600/20 text-purple-400 text-sm font-semibold mb-4"
+              >🛡️ Undetected</span
+            >
+            <h2 class="text-4xl font-bold text-white mb-4">
+              Stay <span class="text-purple-400">Undetected</span>
+            </h2>
+            <p class="text-gray-300 text-lg">
+              Our priority is your safety. With continuous updates and advanced
+              stealth technology, you can play with confidence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- How it Works -->
+    <section
+      class="relative py-24 bg-[#0a0014] overflow-hidden"
+      id="how-it-works"
+    >
+      <div class="relative container mx-auto px-6">
+        <h2
+          class="text-center text-4xl font-bold text-white mb-16 gsap-hidden"
+          data-anim="section-title"
+        >
+          How it Works
+          <span class="text-purple-400" data-anim="section-subtitle"
+            >Step by Step</span
+          >
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <div
+            class="relative rounded-2xl border border-purple-500/20 bg-white/5 backdrop-blur-lg shadow-[0_20px_40px_-10px_rgba(0,0,0,0.6)] p-8 text-center gsap-hidden"
+            data-anim="step-card"
+          >
+            <div class="mb-6">
+              <img
+                src="https://placehold.co/400x250/png?text=Step+1"
+                class="rounded-lg mx-auto"
+              />
+            </div>
+            <span class="text-purple-400 font-semibold text-sm">STEP 1</span>
+            <h3 class="text-xl font-bold text-white mt-2">Get Eulen</h3>
+            <p class="text-gray-300 mt-3">
+              Make the payment using one of the available payment methods.
+            </p>
+          </div>
+
+          <div
+            class="relative rounded-2xl border border-purple-500/20 bg-white/5 backdrop-blur-lg shadow-[0_20px_40px_-10px_rgba(0,0,0,0.6)] p-8 text-center gsap-hidden"
+            data-anim="step-card"
+          >
+            <div class="mb-6">
+              <img
+                src="https://placehold.co/400x250/png?text=Step+2"
+                class="rounded-lg mx-auto"
+              />
+            </div>
+            <span class="text-purple-400 font-semibold text-sm">STEP 2</span>
+            <h3 class="text-xl font-bold text-white mt-2">
+              Receive it in your email
+            </h3>
+            <p class="text-gray-300 mt-3">
+              Everything should arrive in your email: tutorial, download, and
+              license key.
+            </p>
+          </div>
+
+          <div
+            class="relative rounded-2xl border border-purple-500/20 bg-white/5 backdrop-blur-lg shadow-[0_20px_40px_-10px_rgba(0,0,0,0.6)] p-8 text-center gsap-hidden"
+            data-anim="step-card"
+          >
+            <div class="mb-6">
+              <img
+                src="https://placehold.co/400x250/png?text=Step+3"
+                class="rounded-lg mx-auto"
+              />
+            </div>
+            <span class="text-purple-400 font-semibold text-sm">STEP 3</span>
+            <h3 class="text-xl font-bold text-white mt-2">Just enjoy it 🎮</h3>
+            <p class="text-gray-300 mt-3">
+              Simply follow our quick guide, and you’ll be ready to dominate
+              FiveM like never before.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial marquie -->
+    <section
+      class="relative bg-[#0a0014] py-20 overflow-hidden"
+      id="testimonials"
+    >
+      <div class="relative max-w-7xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center text-white mb-4 gsap-hidden">
+          What Our <span class="text-purple-400">Users</span> are Saying
+        </h2>
+        <p class="text-center text-gray-400 mb-12 gsap-hidden">
+          Hear testimonials from satisfied users 🚀
+        </p>
+
+        <div class="overflow-hidden">
+          <div class="flex animate-marquee space-x-6">
+            <div
+              class="bg-white/5 border border-purple-500/20 rounded-2xl p-6 shadow-lg min-w-[300px] max-w-sm"
+            >
+              <h3 class="text-white font-semibold">Henry Sam</h3>
+              <p class="text-gray-400 text-sm mb-3">via Discord</p>
+              <p class="text-gray-300">
+                "I've been using this tool for months now and it works great!"
+              </p>
+              <div class="mt-3 text-yellow-400">★★★★★</div>
+            </div>
+
+            <div
+              class="bg-white/5 border border-purple-500/20 rounded-2xl p-6 shadow-lg min-w-[300px] max-w-sm"
+            >
+              <h3 class="text-white font-semibold">Vicke How</h3>
+              <p class="text-gray-400 text-sm mb-3">via Trustpilot</p>
+              <p class="text-gray-300">
+                "Only those who don’t know how to use it complain. Always works
+                perfectly!"
+              </p>
+              <div class="mt-3 text-yellow-400">★★★★★</div>
+            </div>
+
+            <div
+              class="bg-white/5 border border-purple-500/20 rounded-2xl p-6 shadow-lg min-w-[300px] max-w-sm"
+            >
+              <h3 class="text-white font-semibold">Justin Plein</h3>
+              <p class="text-gray-400 text-sm mb-3">via Trustpilot</p>
+              <p class="text-gray-300">
+                "Hands down the best tool I’ve ever used. Worth it!"
+              </p>
+              <div class="mt-3 text-yellow-400">★★★★★</div>
+            </div>
+            <div
+              class="bg-white/5 border border-purple-500/20 rounded-2xl p-6 shadow-lg min-w-[300px] max-w-sm"
+            >
+              <h3 class="text-white font-semibold">Henry Sam</h3>
+              <p class="text-gray-400 text-sm mb-3">via Discord</p>
+              <p class="text-gray-300">
+                "I've been using this tool for months now and it works great!"
+              </p>
+              <div class="mt-3 text-yellow-400">★★★★★</div>
+            </div>
+
+            <div
+              class="bg-white/5 border border-purple-500/20 rounded-2xl p-6 shadow-lg min-w-[300px] max-w-sm"
+            >
+              <h3 class="text-white font-semibold">Vicke How</h3>
+              <p class="text-gray-400 text-sm mb-3">via Trustpilot</p>
+              <p class="text-gray-300">
+                "Only those who don’t know how to use it complain. Always works
+                perfectly!"
+              </p>
+              <div class="mt-3 text-yellow-400">★★★★★</div>
+            </div>
+
+            <div
+              class="bg-white/5 border border-purple-500/20 rounded-2xl p-6 shadow-lg min-w-[300px] max-w-sm"
+            >
+              <h3 class="text-white font-semibold">Justin Plein</h3>
+              <p class="text-gray-400 text-sm mb-3">via Trustpilot</p>
+              <p class="text-gray-300">
+                "Hands down the best tool I’ve ever used. Worth it!"
+              </p>
+              <div class="mt-3 text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="overflow-hidden mt-10">
+          <div class="flex animate-marquee-reverse space-x-6">
+            <div
+              class="bg-white/5 border border-purple-500/20 rounded-2xl p-6 shadow-lg min-w-[300px] max-w-sm"
+            >
+              <h3 class="text-white font-semibold">Tokyo</h3>
+              <p class="text-gray-400 text-sm mb-3">via Trustpilot</p>
+              <p class="text-gray-300">
+                "The most powerful product ever made for FiveM. Super fast and
+                easy!"
+              </p>
+              <div class="mt-3 text-yellow-400">★★★★★</div>
+            </div>
+
+            <div
+              class="bg-white/5 border border-purple-500/20 rounded-2xl p-6 shadow-lg min-w-[300px] max-w-sm"
+            >
+              <h3 class="text-white font-semibold">Cloud Cloud</h3>
+              <p class="text-gray-400 text-sm mb-3">via Trustpilot</p>
+              <p class="text-gray-300">
+                "Worth every cent, reliable, and safe. Can’t recommend enough!"
+              </p>
+              <div class="mt-3 text-yellow-400">★★★★★</div>
+            </div>
+
+            <div
+              class="bg-white/5 border border-purple-500/20 rounded-2xl p-6 shadow-lg min-w-[300px] max-w-sm"
+            >
+              <h3 class="text-white font-semibold">TG</h3>
+              <p class="text-gray-400 text-sm mb-3">via Trustpilot</p>
+              <p class="text-gray-300">
+                "Been using it for years, never had issues. Solid support too!"
+              </p>
+              <div class="mt-3 text-yellow-400">★★★★★</div>
+            </div>
+            <div
+              class="bg-white/5 border border-purple-500/20 rounded-2xl p-6 shadow-lg min-w-[300px] max-w-sm"
+            >
+              <h3 class="text-white font-semibold">TG</h3>
+              <p class="text-gray-400 text-sm mb-3">via Trustpilot</p>
+              <p class="text-gray-300">
+                "Been using it for years, never had issues. Solid support too!"
+              </p>
+              <div class="mt-3 text-yellow-400">★★★★★</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing -->
+    <section
+      class="relative py-24 bg-gradient-to-b from-[#0a0014] to-[#0a0014]/90 overflow-hidden"
+      id="pricing"
+    >
+      <div
+        class="absolute inset-0 bg-[url('Images/grid-me.png')] opacity-10"
+      ></div>
+
+      <div class="relative container mx-auto px-6">
+        <h2 class="text-center text-4xl font-bold text-white mb-16 gsap-hidden">
+          Pricing <span class="text-purple-400">Plans</span>
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <div
+            class="rounded-2xl border border-purple-500/20 bg-white/5 backdrop-blur-lg p-8 text-center shadow-[0_20px_40px_-10px_rgba(0,0,0,0.6)] gsap-hidden"
+            data-anim="price-card"
+          >
+            <h3 class="text-xl font-bold text-white mb-4">Starter</h3>
+            <p class="text-4xl font-extrabold text-purple-400 mb-6">
+              $9<span class="text-lg font-normal text-gray-400">/mo</span>
+            </p>
+            <ul class="text-gray-300 space-y-3 mb-6">
+              <li>✔ Basic features</li>
+              <li>✔ Email support</li>
+              <li>✔ Regular updates</li>
+            </ul>
+            <a
+              href="#"
+              class="bg-gradient-to-r from-purple-500 to-indigo-500 px-6 py-2 rounded-full text-sm font-semibold hover:opacity-90"
+              >Choose Plan</a
+            >
+          </div>
+
+          <div
+            class="relative rounded-2xl border border-purple-500/30 bg-white/10 backdrop-blur-lg p-10 text-center shadow-[0_25px_50px_-12px_rgba(139,92,246,0.6)] scale-105 gsap-hidden"
+            data-anim="price-card"
+          >
+            <div
+              class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-purple-500 text-white text-xs px-3 py-1 rounded-full"
+            >
+              Most Popular
+            </div>
+            <h3 class="text-xl font-bold text-white mb-4">Pro</h3>
+            <p class="text-4xl font-extrabold text-purple-400 mb-6">
+              $29<span class="text-lg font-normal text-gray-400">/mo</span>
+            </p>
+            <ul class="text-gray-300 space-y-3 mb-6">
+              <li>✔ Everything in Starter</li>
+              <li>✔ Premium features</li>
+              <li>✔ Priority support</li>
+            </ul>
+            <a
+              href="#"
+              class="bg-gradient-to-r from-purple-500 to-indigo-500 px-6 py-2 rounded-full text-sm font-semibold hover:opacity-90"
+              >Choose Plan</a
+            >
+          </div>
+
+          <div
+            class="rounded-2xl border border-purple-500/20 bg-white/5 backdrop-blur-lg p-8 text-center shadow-[0_20px_40px_-10px_rgba(0,0,0,0.6)] gsap-hidden"
+            data-anim="price-card"
+          >
+            <h3 class="text-xl font-bold text-white mb-4">Enterprise</h3>
+            <p class="text-4xl font-extrabold text-purple-400 mb-6">Custom</p>
+            <ul class="text-gray-300 space-y-3 mb-6">
+              <li>✔ Unlimited features</li>
+              <li>✔ Dedicated manager</li>
+              <li>✔ 24/7 Support</li>
+            </ul>
+            <a
+              href="#"
+              class="bg-gradient-to-r from-purple-500 to-indigo-500 px-6 py-2 rounded-full text-sm font-semibold hover:opacity-90"
+              >Contact Us</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Faq -->
+    <section class="relative px-6 py-20 text-center" id="faq">
+      <div
+        class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-2xl h-40 bg-purple-500/30 blur-[160px] rounded-full"
+      ></div>
+      <div
+        class="inline-block bg-purple-800/30 border border-purple-500 px-4 py-1 rounded-full text-sm mb-6"
+      >
+        🧾 FAQ
+      </div>
+      <h2
+        class="text-4xl md:text-5xl font-bold leading-tight mb-4"
+        data-anim="faq-item"
+      >
+        Frequently Asked Question
+      </h2>
+      <p class="text-gray-400 mb-12" data-anim="faq-item">
+        Find quick answers to common questions about Eulen Cheats for FiveM.
+      </p>
+      <div
+        class="grid md:grid-cols-2 gap-4 max-w-4xl mx-auto text-left"
+        x-data="{ open: null }"
+      >
+        <div
+          class="bg-black/30 border border-purple-600/30 rounded-xl p-4 cursor-pointer hover:border-purple-500 transition"
+          @click="open === 1 ? open = null : open = 1"
+        >
+          <div class="flex justify-between items-center">
+            <h3 class="font-medium">Is EulenCheats safe?</h3>
+            <span class="text-purple-400 text-xl">+</span>
+          </div>
+          <div
+            x-show="open === 1"
+            x-transition
+            class="mt-2 text-gray-300 text-sm leading-relaxed"
+          >
+            Yes ✅. EulenCheats is continuously updated and stealthy, ensuring
+            no global bans while keeping your account safe.
+          </div>
+        </div>
+        <div
+          class="bg-black/30 border border-purple-600/30 rounded-xl p-4 cursor-pointer hover:border-purple-500 transition"
+          @click="open === 2 ? open = null : open = 2"
+        >
+          <div class="flex justify-between items-center">
+            <h3 class="font-medium">How to buy and receive Eulen?</h3>
+            <span class="text-purple-400 text-xl">+</span>
+          </div>
+          <div
+            x-show="open === 2"
+            x-transition
+            class="mt-2 text-gray-300 text-sm leading-relaxed"
+          >
+            Simply make your payment through the supported methods, and you’ll
+            receive your license key and instructions instantly via email.
+          </div>
+        </div>
+        <div
+          class="bg-black/30 border border-purple-600/30 rounded-xl p-4 cursor-pointer hover:border-purple-500 transition"
+          @click="open === 3 ? open = null : open = 3"
+        >
+          <div class="flex justify-between items-center">
+            <h3 class="font-medium">What are the payment methods?</h3>
+            <span class="text-purple-400 text-xl">+</span>
+          </div>
+          <div
+            x-show="open === 3"
+            x-transition
+            class="mt-2 text-gray-300 text-sm leading-relaxed"
+          >
+            Eulen supports multiple payment methods such as PayPal, crypto, and
+            other regional options depending on your location.
+          </div>
+        </div>
+        <div
+          class="bg-black/30 border border-purple-600/30 rounded-xl p-4 cursor-pointer hover:border-purple-500 transition"
+          @click="open === 4 ? open = null : open = 4"
+        >
+          <div class="flex justify-between items-center">
+            <h3 class="font-medium">Is EulenCheats Stream Proof?</h3>
+            <span class="text-purple-400 text-xl">+</span>
+          </div>
+          <div
+            x-show="open === 4"
+            x-transition
+            class="mt-2 text-gray-300 text-sm leading-relaxed"
+          >
+            Absolutely 🎥. EulenCheats is 100% stream proof — nothing will be
+            shown on your live streams or recordings.
+          </div>
+        </div>
+        <div
+          class="bg-black/30 border border-purple-600/30 rounded-xl p-4 cursor-pointer hover:border-purple-500 transition"
+          @click="open === 5 ? open = null : open = 5"
+        >
+          <div class="flex justify-between items-center">
+            <h3 class="font-medium">Can I test before I buy?</h3>
+            <span class="text-purple-400 text-xl">+</span>
+          </div>
+          <div
+            x-show="open === 5"
+            x-transition
+            class="mt-2 text-gray-300 text-sm leading-relaxed"
+          >
+            Unfortunately no trial is offered, but you can check our community
+            reviews and active support to see feedback from other users.
+          </div>
+        </div>
+        <div
+          class="bg-black/30 border border-purple-600/30 rounded-xl p-4 cursor-pointer hover:border-purple-500 transition"
+          @click="open === 6 ? open = null : open = 6"
+        >
+          <div class="flex justify-between items-center">
+            <h3 class="font-medium">Can I use Eulen to remove bans?</h3>
+            <span class="text-purple-400 text-xl">+</span>
+          </div>
+          <div
+            x-show="open === 6"
+            x-transition
+            class="mt-2 text-gray-300 text-sm leading-relaxed"
+          >
+            ❌ No. Eulen cannot be used to remove server or account bans. It is
+            designed to prevent detection and bans in the first place.
+          </div>
+        </div>
+        <div
+          class="bg-black/30 border border-purple-600/30 rounded-xl p-4 cursor-pointer hover:border-purple-500 transition"
+          @click="open === 7 ? open = null : open = 7"
+        >
+          <div class="flex justify-between items-center">
+            <h3 class="font-medium">
+              Can I buy a function only? I don’t need the whole package.
+            </h3>
+            <span class="text-purple-400 text-xl">+</span>
+          </div>
+          <div
+            x-show="open === 7"
+            x-transition
+            class="mt-2 text-gray-300 text-sm leading-relaxed"
+          >
+            No. Eulen is sold as a complete package with all its features — we
+            don’t split functions individually.
+          </div>
+        </div>
+        <div
+          class="bg-black/30 border border-purple-600/30 rounded-xl p-4 cursor-pointer hover:border-purple-500 transition"
+          @click="open === 8 ? open = null : open = 8"
+        >
+          <div class="flex justify-between items-center">
+            <h3 class="font-medium">Does Eulen work on Windows 11?</h3>
+            <span class="text-purple-400 text-xl">+</span>
+          </div>
+          <div
+            x-show="open === 8"
+            x-transition
+            class="mt-2 text-gray-300 text-sm leading-relaxed"
+          >
+            ✅ Yes, Eulen is fully compatible with Windows 10 and Windows 11.
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="relative bg-[#0a0014] border-t border-purple-500/20 py-16">
+      <div
+        class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12"
+        data-anim="footer"
+      >
+        <div class="gsap-hidden">
+          <h1 class="text-2xl font-bold text-white mb-4">PIXEL2K</h1>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            The leading choice for enhancing your FiveM experience. Join a
+            community of winners and dominate the game.
+          </p>
+        </div>
+
+        <div class="gsap-hidden">
+          <h3 class="text-white font-semibold mb-4">Quick Links</h3>
+          <ul class="space-y-3 text-gray-400">
+            <li><a href="#" class="hover:text-purple-400">Features</a></li>
+            <li><a href="#" class="hover:text-purple-400">How it works</a></li>
+            <li><a href="#" class="hover:text-purple-400">Testimonials</a></li>
+            <li><a href="#" class="hover:text-purple-400">Pricing</a></li>
+            <li><a href="#" class="hover:text-purple-400">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="gsap-hidden">
+          <h3 class="text-white font-semibold mb-4">Contact</h3>
+          <ul class="space-y-3 text-gray-400">
+            <li>
+              Email:
+              <a href="mailto:info@pixel2k.com" class="hover:text-purple-400"
+                >info@pixel2k.com</a
+              >
+            </li>
+            <li>
+              Discord:
+              <a href="#" class="hover:text-purple-400">Join our server</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="mt-12 pt-6 text-center text-gray-500 text-sm border-t border-purple-500/10 gsap-hidden"
+        data-anim="footer-copy"
+      >
+        © 2025 PIXEL2K. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/alpinejs" defer></script>
+    <script src="index.js"></script>
+  </body>
+</html>
