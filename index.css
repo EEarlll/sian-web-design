@@ -4,11 +4,28 @@ html {
 }
 
 .hero {
+  position: relative;
   background-color: #0a0014;
-  background-image: url("Images/Grid.png");
-  background-size: cover;
+  background-image: url("Images/PIXEL2k_banner.gif");
+  background-size: contain;
   background-repeat: no-repeat;
+  overflow: hidden; /* ensures overlay stays inside */
 }
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit; /* uses same background image */
+  filter: blur(8px);  /* adjust blur intensity */
+  z-index: 0;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 1; /* content stays above the blur */
+}
+
 @keyframes marquee {
   0% {
     transform: translateX(0);
