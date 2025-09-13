@@ -7,9 +7,9 @@ html {
   position: relative;
   background-color: #0a0014;
   background-image: url("Images/PIXEL2k_banner.gif");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden; /* ensures overlay stays inside */
+  overflow: hidden;
 }
 
 .hero::before {

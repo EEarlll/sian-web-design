@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EULEN - FiveM</title>
+    <title>PIXEL2K</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="index.css" />
     <link rel="icon" type="image/png" href="favicon.ico" />
@@ -19,7 +19,7 @@
       </a>
 
       <ul class="hidden md:flex gap-8 text-gray-300">
-        <li><a href="#features" class="hover:text-white">Features</a></li>
+        <li><a href="#features" class="hover:text-white">Products</a></li>
 
         <li>
           <a href="#how-it-works" class="hover:text-white">How It Works</a>
@@ -41,11 +41,11 @@
       </a>
     </nav>
     <!-- Hero -->
-    <section class="w-full hero">
-      <div class="px-10 py-28 pt-48 min-h-screen w-full max-w-3xl">
+    <section class="w-full hero flex justify-start items-center min-h-screen">
+      <div class="px-10 2xl:px-32 w-full md:max-w-3xl 2xl:max-w-7xl">
         <div class="flex items-center mb-6 bg-gray-800/50 rounded-full w-fit">
           <div
-            class="w-8 h-8 rounded-full flex items-center justify-center"
+            class="w-8 h-8 2xl:w-12 2xl:h-12 rounded-full flex items-center justify-center"
             style="
               background: linear-gradient(90deg, #7f00ff, #e100ff);
               background-size: 200% auto;
@@ -56,33 +56,34 @@
             <img
               src="Images/PIXEL2K_LOGO_TRANSPARENT_STATIC.png"
               alt="Icon"
-              class="w-5 h-5 rounded-full object-cover"
+              class="w-5 h-5 2xl:w-8 2xl:h-8 rounded-full object-cover"
             />
           </div>
 
-          <!-- Text badge -->
-          <span class="inline-block text-sm px-4 py-1 rounded-full">
-            DUCK'S SERVICES - YOUR #1 PROVIDER
+          <span
+            class="inline-block text-sm 2xl:text-2xl px-4 py-1 rounded-full"
+          >
+            PIXEL SERVICES - YOUR #1 PROVIDER
           </span>
         </div>
-
-        <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-8">
+        <h1
+          class="text-4xl sm:text-5xl md:text-6xl 2xl:text-[7rem] font-bold mb-8"
+        >
           Experience Gaming <br />
           to the fullest with
           <span
             class="bg-gradient-to-r from-purple-500 to-indigo-500 bg-clip-text text-transparent"
-            >Duck's Services</span
+            >Pixel's Services</span
           >
         </h1>
-
         <div class="flex gap-4 mt-6 flex-wrap">
           <a
             href="#"
-            class="bg-gradient-to-r from-purple-500 to-indigo-500 hover:bg-purple-600 transition-colors text-white px-6 py-3 rounded-lg flex items-center gap-2"
+            class="bg-gradient-to-r from-purple-500 to-indigo-500 hover:bg-purple-600 transition-colors text-white px-6 py-3 2xl:px-8 2xl:py-4 rounded-lg flex items-center gap-2 text-sm 2xl:text-lg"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              class="h-5 w-5 2xl:h-6 2xl:w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -99,263 +100,122 @@
         </div>
       </div>
     </section>
-
-    <!-- <section
-      class="min-h-screen flex flex-col justify-center items-center text-center relative px-6 hero overflow-x-hidden"
+    <!-- Products -->
+    <section
+      class="relative py-24 bg-gradient-to-b from-[#0a0014] to-[#0a0014]/90 overflow-hidden"
+      id="pricing"
     >
-      <main class="font-bold flex flex-col max-w-5xl w-full relative">
-        <span
-          class="w-full flex gap-4 text-[4.5rem] lg:text-[13.5rem] leading-none"
-        >
-          <span class="P">P</span>
-          <span class="i">i</span>
-          <span class="relative letter-wrapper">
-            <div>
-              <svg
-                viewBox="0 0 156 156"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                aria-hidden="true"
-                class="absolute bottom-3 intro-svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M45.9341 76.316C43.4159 76.8454 40.8068 77.1236 38.1333 77.1236C17.0729 77.1236 0 59.8589 0 38.5618C0 17.2647 17.0729 0 38.1333 0C59.1938 0 76.2666 17.2647 76.2666 38.5618C76.2666 40.3457 76.1469 42.1013 75.915 43.8209H80.0849C79.853 42.1013 79.7332 40.3457 79.7332 38.5618C79.7332 17.2647 96.8061 0 117.867 0C138.927 0 156 17.2647 156 38.5618C156 59.8589 138.927 77.1236 117.867 77.1236C115.499 77.1236 113.182 76.9054 110.934 76.4879V79.5128C113.182 79.0953 115.499 78.8771 117.867 78.8771C138.927 78.8771 156 96.1418 156 117.439C156 138.736 138.927 156.001 117.867 156.001C96.8064 156.001 79.7335 138.736 79.7335 117.439C79.7335 114.736 80.0086 112.097 80.5319 109.551H75.6376C76.0508 111.825 76.2667 114.169 76.2667 116.564C76.2667 137.861 59.1938 155.126 38.1334 155.126C17.0729 155.126 6.30037e-05 137.861 6.30037e-05 116.564C6.30037e-05 95.2671 17.0729 78.0024 38.1334 78.0024C40.8068 78.0024 43.416 78.2806 45.9341 78.8099V76.316Z"
-                  fill="url(#paint0_radial_1336_100489)"
-                ></path>
-                <path
-                  fill-opacity=".6"
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M45.9341 76.316C43.4159 76.8454 40.8068 77.1236 38.1333 77.1236C17.0729 77.1236 0 59.8589 0 38.5618C0 17.2647 17.0729 0 38.1333 0C59.1938 0 76.2666 17.2647 76.2666 38.5618C76.2666 40.3457 76.1469 42.1013 75.915 43.8209H80.0849C79.853 42.1013 79.7332 40.3457 79.7332 38.5618C79.7332 17.2647 96.8061 0 117.867 0C138.927 0 156 17.2647 156 38.5618C156 59.8589 138.927 77.1236 117.867 77.1236C115.499 77.1236 113.182 76.9054 110.934 76.4879V79.5128C113.182 79.0953 115.499 78.8771 117.867 78.8771C138.927 78.8771 156 96.1418 156 117.439C156 138.736 138.927 156.001 117.867 156.001C96.8064 156.001 79.7335 138.736 79.7335 117.439C79.7335 114.736 80.0086 112.097 80.5319 109.551H75.6376C76.0508 111.825 76.2667 114.169 76.2667 116.564C76.2667 137.861 59.1938 155.126 38.1334 155.126C17.0729 155.126 6.30037e-05 137.861 6.30037e-05 116.564C6.30037e-05 95.2671 17.0729 78.0024 38.1334 78.0024C40.8068 78.0024 43.416 78.2806 45.9341 78.8099V76.316Z"
-                  fill="url(#pattern-home-hero-circles-0)"
-                  style="mix-blend-mode: multiply"
-                ></path>
-                <defs>
-                  <pattern
-                    id="pattern-home-hero-circles-0"
-                    patternContentUnits="objectBoundingBox"
-                    width="0.641025"
-                    height="0.641023"
-                  >
-                    <use
-                      xlink:href="#svg-noise"
-                      transform="scale(0.00128205)"
-                    ></use>
-                  </pattern>
-                  <radialGradient
-                    id="paint0_radial_1336_100489"
-                    cx="0"
-                    cy="0"
-                    r="1"
-                    gradientUnits="userSpaceOnUse"
-                    gradientTransform="translate(48.0022 111.876) rotate(-90) scale(122.883 122.883)"
-                  >
-                    <stop stop-color="#E193FF"></stop>
-                    <stop offset="0.6721" stop-color="#8E78DA"></stop>
-                    <stop offset="0.7378" stop-color="#937DDB"></stop>
-                    <stop offset="0.8164" stop-color="#A28BDD"></stop>
-                    <stop offset="0.9014" stop-color="#BAA3E2"></stop>
-                    <stop offset="0.9905" stop-color="#DBC3E7"></stop>
-                    <stop offset="1" stop-color="#DFC7E8"></stop>
-                  </radialGradient>
-                </defs>
-              </svg>
-              <svg
-                viewBox="0 0 137 135"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                aria-hidden="true"
-                class="absolute w-full -translate-y-12 brace"
-              >
-                <path
-                  d="M84.1148 67.3453H136.194C136.637 67.3453 137 67.7028 137 68.1397V134.043C137 134.484 136.633 134.845 136.186 134.841C99.0222 134.416 68.9737 104.827 68.502 68.2191V134.206C68.502 134.643 68.1392 135 67.6958 135H0.814284C0.366822 135 -2.06673e-05 134.639 0.00401052 134.198C0.439379 97.2879 30.9354 67.5042 68.498 67.5002H0.806238C0.362807 67.5002 0 67.1427 0 66.7057V0.802561C0 0.361644 0.366822 0.000171863 0.814284 0.00414409C37.9778 0.429172 68.0263 30.0183 68.498 66.6263V0.794617C68.498 0.357672 68.8608 0.000171819 69.3042 0.000171819H136.186C136.633 0.000171819 137 0.361644 136.996 0.802561C136.621 32.4969 114.079 58.94 83.9334 65.7802C83.0022 65.9907 83.1594 67.3453 84.1189 67.3453H84.1148Z"
-                  fill="url(#paint0_linear_1655_45397)"
-                ></path>
-                <path
-                  d="M84.1148 67.3453H136.194C136.637 67.3453 137 67.7028 137 68.1397V134.043C137 134.484 136.633 134.845 136.186 134.841C99.0222 134.416 68.9737 104.827 68.502 68.2191V134.206C68.502 134.643 68.1392 135 67.6958 135H0.814284C0.366822 135 -2.06673e-05 134.639 0.00401052 134.198C0.439379 97.2879 30.9354 67.5042 68.498 67.5002H0.806238C0.362807 67.5002 0 67.1427 0 66.7057V0.802561C0 0.361644 0.366822 0.000171863 0.814284 0.00414409C37.9778 0.429172 68.0263 30.0183 68.498 66.6263V0.794617C68.498 0.357672 68.8608 0.000171819 69.3042 0.000171819H136.186C136.633 0.000171819 137 0.361644 136.996 0.802561C136.621 32.4969 114.079 58.94 83.9334 65.7802C83.0022 65.9907 83.1594 67.3453 84.1189 67.3453H84.1148Z"
-                  fill="url(#pattern-home-hero-windmill-0)"
-                  fill-opacity="0.6"
-                  style="mix-blend-mode: multiply"
-                  class=""
-                ></path>
-                <defs>
-                  <pattern
-                    id="pattern-home-hero-windmill-0"
-                    patternContentUnits="objectBoundingBox"
-                    width="1.45985"
-                    height="1.48148"
-                  >
-                    <use
-                      xlink:href="#svg-noise"
-                      transform="scale(0.00291971 0.00296296)"
-                    ></use>
-                  </pattern>
-                  <linearGradient
-                    id="paint0_linear_1655_45397"
-                    x1="-76.6791"
-                    y1="-15.6157"
-                    x2="165.682"
-                    y2="81.0082"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop offset="0.427083" stop-color="#FF8709"></stop>
-                    <stop offset="0.791667" stop-color="#F7BDF8"></stop>
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div>
-            <span class="x opacity-0">x</span>
-          </span>
+      <div
+        class="absolute inset-0 bg-[url('Images/grid-me.png')] opacity-10"
+      ></div>
+      <div
+        class="absolute right-0 w-[900px] h-[300px] bg-purple-600 rounded-full blur-[70px] opacity-40 -rotate-45"
+        data-anim="glow"
+      ></div>
 
-          <span class="relative"
-            ><div>
-              <svg
-                viewBox="0 0 157 156"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                aria-hidden="true"
-                class="absolute bottom-3 w-14 md:w-32 rounding"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M82.2214 104.04L105.483 143.586C108.242 148.276 114.274 149.852 118.974 147.112V147.112C123.675 144.371 125.275 138.345 122.552 133.634L99.5971 93.9091L144.009 105.424C149.276 106.79 154.656 103.639 156.042 98.3773V98.3773C157.428 93.1154 154.298 87.7233 149.042 86.317L104.72 74.4593L144.266 51.1978C148.957 48.439 150.533 42.407 147.792 37.7062V37.7062C145.052 33.0054 139.026 31.4057 134.314 34.1282L94.5898 57.0835L106.105 12.6719C107.471 7.40463 104.32 2.02469 99.058 0.638673V0.638673C93.7961 -0.747342 88.4041 2.38242 86.9977 7.63895L75.14 51.9603L51.8786 12.4142C49.1197 7.72403 43.0878 6.14763 38.387 8.8883V8.8883C33.6862 11.629 32.0865 17.6548 34.809 22.3662L57.7643 62.0908L13.3526 50.5758C8.08539 49.2101 2.70545 52.3607 1.31944 57.6226V57.6226C-0.0665745 62.8845 3.06319 68.2766 8.31971 69.6829L52.6411 81.5406L13.095 104.802C8.4048 107.561 6.8284 113.593 9.56907 118.294V118.294C12.3097 122.994 18.3356 124.594 23.0469 121.872L62.7716 98.9164L51.2566 143.328C49.8909 148.595 53.0414 153.975 58.3034 155.361V155.361C63.5653 156.747 68.9573 153.617 70.3637 148.361L82.2214 104.04Z"
-                  fill="white"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M82.2214 104.04L105.483 143.586C108.242 148.276 114.274 149.852 118.974 147.112V147.112C123.675 144.371 125.275 138.345 122.552 133.634L99.5971 93.9091L144.009 105.424C149.276 106.79 154.656 103.639 156.042 98.3773V98.3773C157.428 93.1154 154.298 87.7233 149.042 86.317L104.72 74.4593L144.266 51.1978C148.957 48.439 150.533 42.407 147.792 37.7062V37.7062C145.052 33.0054 139.026 31.4057 134.314 34.1282L94.5898 57.0835L106.105 12.6719C107.471 7.40463 104.32 2.02469 99.058 0.638673V0.638673C93.7961 -0.747342 88.4041 2.38242 86.9977 7.63895L75.14 51.9603L51.8786 12.4142C49.1197 7.72403 43.0878 6.14763 38.387 8.8883V8.8883C33.6862 11.629 32.0865 17.6548 34.809 22.3662L57.7643 62.0908L13.3526 50.5758C8.08539 49.2101 2.70545 52.3607 1.31944 57.6226V57.6226C-0.0665745 62.8845 3.06319 68.2766 8.31971 69.6829L52.6411 81.5406L13.095 104.802C8.4048 107.561 6.8284 113.593 9.56907 118.294V118.294C12.3097 122.994 18.3356 124.594 23.0469 121.872L62.7716 98.9164L51.2566 143.328C49.8909 148.595 53.0414 153.975 58.3034 155.361V155.361C63.5653 156.747 68.9573 153.617 70.3637 148.361L82.2214 104.04Z"
-                  fill="url(#paint0_radial_1413_80169)"
-                ></path>
-                <path
-                  fill-opacity=".6"
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M82.2214 104.04L105.483 143.586C108.242 148.276 114.274 149.852 118.974 147.112V147.112C123.675 144.371 125.275 138.345 122.552 133.634L99.5971 93.9091L144.009 105.424C149.276 106.79 154.656 103.639 156.042 98.3773V98.3773C157.428 93.1154 154.298 87.7233 149.042 86.317L104.72 74.4593L144.266 51.1978C148.957 48.439 150.533 42.407 147.792 37.7062V37.7062C145.052 33.0054 139.026 31.4057 134.314 34.1282L94.5898 57.0835L106.105 12.6719C107.471 7.40463 104.32 2.02469 99.058 0.638673V0.638673C93.7961 -0.747342 88.4041 2.38242 86.9977 7.63895L75.14 51.9603L51.8786 12.4142C49.1197 7.72403 43.0878 6.14763 38.387 8.8883V8.8883C33.6862 11.629 32.0865 17.6548 34.809 22.3662L57.7643 62.0908L13.3526 50.5758C8.08539 49.2101 2.70545 52.3607 1.31944 57.6226V57.6226C-0.0665745 62.8845 3.06319 68.2766 8.31971 69.6829L52.6411 81.5406L13.095 104.802C8.4048 107.561 6.8284 113.593 9.56907 118.294V118.294C12.3097 122.994 18.3356 124.594 23.0469 121.872L62.7716 98.9164L51.2566 143.328C49.8909 148.595 53.0414 153.975 58.3034 155.361V155.361C63.5653 156.747 68.9573 153.617 70.3637 148.361L82.2214 104.04Z"
-                  fill="url(#pattern-home-hero-star-0)"
-                  style="mix-blend-mode: multiply"
-                ></path>
-                <defs>
-                  <pattern
-                    id="pattern-home-hero-star-0"
-                    patternContentUnits="objectBoundingBox"
-                    width="0.625"
-                    height="0.625"
-                  >
-                    <use
-                      xlink:href="#svg-noise"
-                      transform="scale(0.00125)"
-                    ></use>
-                  </pattern>
-                  <radialGradient
-                    id="paint0_radial_1413_80169"
-                    cx="0"
-                    cy="0"
-                    r="1"
-                    gradientUnits="userSpaceOnUse"
-                    gradientTransform="translate(124.192 87.08) rotate(149.757) scale(126.034)"
-                  >
-                    <stop stop-color="#FFEBE7"></stop>
-                    <stop offset="0.6721" stop-color="#FF9C7C"></stop>
-                    <stop offset="0.8164" stop-color="#FF9983"></stop>
-                    <stop offset="0.9014" stop-color="#FF774B"></stop>
-                    <stop offset="1" stop-color="#E76F00"></stop>
-                  </radialGradient>
-                </defs>
-              </svg>
-            </div>
-            <span class="e opacity-0">e</span>
-          </span>
-          <span class="l opacity-0">l</span>
-        </span>
-        <span
-          class="w-full flex gap-4 text-[2.5rem] lg:text-[13.5rem] leading-none justify-end"
-        >
-          <span class="relative inline-block overflow-hidden">
-            <div class="s">
-              <span class="s1 absolute -top-52">s</span>
-              <span class="">s</span>
-            </div>
-          </span>
-          <span class="relative inline-block">
-            <span class="relative z-50 t opacity-0">e</span>
-          </span>
-          <span class="relative inline-block overflow-hidden">
-            <div class="o">
-              <span class="o1 absolute -top-52">r</span>
-              <span class="o2">r</span>
-            </div></span
+      <div class="relative container mx-auto px-6">
+        <h2 class="text-center text-4xl font-bold text-white mb-16 gsap-hidden">
+          Products <span class="text-purple-400"></span>
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 justify-items-center">
+          <div
+            class="rounded-2xl border border-purple-500/20 bg-white/5 backdrop-blur-lg p-8 text-center shadow-[0_20px_40px_-10px_rgba(0,0,0,0.6)] gsap-hidden"
+            data-anim="price-card"
           >
-          <span class="r opacity-0">v</span>
-          <span class="e2 opacity-0 relative inline-block">
-            <div>
+            <h3 class="text-xl font-bold text-white mb-4">
+              PIXEL26 PARK & SUPER GREEN (2N1)
+            </h3>
+            <div class="mb-6">
               <img
-                src="Images/worm.png"
-                alt=""
-                srcset=""
-                class="worm absolute w-18 bottom-0 right-0 z-0 t opacity-0"
+                src="Images/Pixel26 2n1 Low qual gif.gif"
+                class="rounded-lg mx-auto max-w-full h-auto border-purple-400 py-4"
               />
             </div>
-            <span class="relative z-50 t opacity-0">i</span>
-          </span>
-          <span class="c opacity-0">c</span>
-          <span class="e3 opacity-0">e</span>
-          <span class="s2 opacity-0">s</span>
-        </span>
-        <div
-          class="flex mt-12 max-w-5xl w-full justify-between flex-col md:flex-row"
-        >
-          <div class="flex items-center">
-            <div class="">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 27 78"
-                class="w-6 h-20"
-              >
-                <path
-                  fill="#667eea"
-                  d="M26.52 77.21h-5.75c-6.83 0-12.38-5.56-12.38-12.38V48.38C8.39 43.76 4.63 40 .01 40v-4c4.62 0 8.38-3.76 8.38-8.38V12.4C8.38 5.56 13.94 0 20.77 0h5.75v4h-5.75c-4.62 0-8.38 3.76-8.38 8.38V27.6c0 4.34-2.25 8.17-5.64 10.38 3.39 2.21 5.64 6.04 5.64 10.38v16.45c0 4.62 3.76 8.38 8.38 8.38h5.75v4.02Z"
-                />
-              </svg>
-            </div>
-            <p class="text-[#FFFCE1] text-sm md:text-lg max-w-sm font-semibold">
-              GSAP – A wildly robust JavaScript animation library built for
-              professionals
-            </p>
-            <div class="scale-x-[-1]">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 27 78"
-                class="w-6 h-20"
-              >
-                <path
-                  fill="#667eea"
-                  d="M26.52 77.21h-5.75c-6.83 0-12.38-5.56-12.38-12.38V48.38C8.39 43.76 4.63 40 .01 40v-4c4.62 0 8.38-3.76 8.38-8.38V12.4C8.38 5.56 13.94 0 20.77 0h5.75v4h-5.75c-4.62 0-8.38 3.76-8.38 8.38V27.6c0 4.34-2.25 8.17-5.64 10.38 3.39 2.21 5.64 6.04 5.64 10.38v16.45c0 4.62 3.76 8.38 8.38 8.38h5.75v4.02Z"
-                />
-              </svg>
-            </div>
-          </div>
-          <div class="flex justify-center items-center">
             <a
               href="#"
-              class="px-24 py-2 rounded-full border-2 border-indigo-500 text-white"
+              class="bg-gradient-to-r from-purple-500 to-indigo-500 px-6 py-2 rounded-full text-sm font-semibold hover:opacity-90"
+              >Choose Plan</a
             >
-              <span class="text-sm md:text-xl font-semibold">Get GSAP</span>
-            </a>
+          </div>
+          <div
+            class="rounded-2xl border border-purple-500/20 bg-white/5 backdrop-blur-lg p-8 text-center shadow-[0_20px_40px_-10px_rgba(0,0,0,0.6)] gsap-hidden"
+            data-anim="price-card"
+          >
+            <h3 class="text-xl font-bold text-white mb-4">PIXEL26 PARK</h3>
+            <div class="mb-6">
+              <img
+                src="Images/Pixel26 Park Low qual gif.gif"
+                class="rounded-lg mx-auto max-w-full h-auto border-purple-400 py-4"
+              />
+            </div>
+            <a
+              href="#"
+              class="bg-gradient-to-r from-purple-500 to-indigo-500 px-6 py-2 rounded-full text-sm font-semibold hover:opacity-90"
+              >Choose Plan</a
+            >
+          </div>
+          <div
+            class="rounded-2xl border border-purple-500/20 bg-white/5 backdrop-blur-lg p-8 text-center shadow-[0_20px_40px_-10px_rgba(0,0,0,0.6)] gsap-hidden"
+            data-anim="price-card"
+          >
+            <h3 class="text-xl font-bold text-white mb-4">
+              PIXEL26 BOOSTING SERVICES
+            </h3>
+            <div class="mb-6">
+              <img
+                src="Images/2K26 BOOSTING SERVICES.png"
+                class="rounded-lg mx-auto max-w-full h-auto border-purple-400 py-4"
+              />
+            </div>
+            <a
+              href="#"
+              class="bg-gradient-to-r from-purple-500 to-indigo-500 px-6 py-2 rounded-full text-sm font-semibold hover:opacity-90"
+              >Choose Plan</a
+            >
+          </div>
+          <div
+            class="rounded-2xl border border-purple-500/20 bg-white/5 backdrop-blur-lg p-8 text-center shadow-[0_20px_40px_-10px_rgba(0,0,0,0.6)] gsap-hidden"
+            data-anim="price-card"
+          >
+            <h3 class="text-xl font-bold text-white mb-4">
+              PIXEL25 PARK & SUPER GREEN(2N1)
+            </h3>
+            <div class="mb-6">
+              <img
+                src="Images/NBA2k252- low qual.gif"
+                class="rounded-lg mx-auto max-w-full h-auto border-purple-400 py-4"
+              />
+            </div>
+            <a
+              href="#"
+              class="bg-gradient-to-r from-purple-500 to-indigo-500 px-6 py-2 rounded-full text-sm font-semibold hover:opacity-90"
+              >Choose Plan</a
+            >
+          </div>
+          <div
+            class="rounded-2xl border border-purple-500/20 bg-white/5 backdrop-blur-lg p-8 text-center shadow-[0_20px_40px_-10px_rgba(0,0,0,0.6)] gsap-hidden"
+            data-anim="price-card"
+          >
+            <h3 class="text-xl font-bold text-white mb-4">PARK25 PARK</h3>
+            <div class="mb-6">
+              <img
+                src="Images/NBA2k251.gif"
+                class="rounded-lg mx-auto max-w-full h-auto border-purple-400 py-4"
+              />
+            </div>
+            <a
+              href="#"
+              class="bg-gradient-to-r from-purple-500 to-indigo-500 px-6 py-2 rounded-full text-sm font-semibold hover:opacity-90"
+              >Choose Plan</a
+            >
           </div>
         </div>
-      </main>
-    </section> -->
+      </div>
+    </section>
+
     <!-- Features -->
-    <section class="relative bg-[#0a0014] py-24 overflow-hidden" id="features">
+    <!-- <section class="relative bg-[#0a0014] py-24 overflow-hidden" id="features">
       <div
         class="absolute inset-0 bg-[url('Images/grid-me.png')] opacity-10"
       ></div>
@@ -371,10 +231,11 @@
           <div class="gsap-hidden" data-anim="feature-text">
             <span
               class="inline-block px-4 py-1 rounded-full bg-purple-600/20 text-purple-400 text-sm font-semibold mb-4"
-              >🎯 Features</span
+            >
+              Tools</span
             >
             <h2 class="text-4xl font-bold text-white mb-4">
-              Eulen <span class="text-purple-400">Aimbot</span>
+              Pixel <span class="text-purple-400">Tools</span>
             </h2>
             <p class="text-gray-300 text-lg">
               With our fully customizable aim assist and versatile options,
@@ -384,7 +245,7 @@
           </div>
           <div class="relative gsap-hidden" data-anim="feature-image">
             <img
-              src="https://placehold.co/600x350/png?text=Aimbot+Screenshot"
+              src="Images/PIXEL26_TOOL_GIF.gif"
               alt="Feature"
               class="rounded-2xl shadow-lg border border-purple-800/40"
             />
@@ -399,7 +260,7 @@
             data-anim="feature-image"
           >
             <img
-              src="https://placehold.co/600x350/png?text=ESP+Screenshot"
+              src="Images/PIXEL_SERVICES_GIF.gif"
               alt="Feature"
               class="rounded-2xl shadow-lg border border-purple-800/40"
             />
@@ -407,14 +268,15 @@
           <div class="gsap-hidden" data-anim="feature-text">
             <span
               class="inline-block px-4 py-1 rounded-full bg-purple-600/20 text-purple-400 text-sm font-semibold mb-4"
-              >🛰 ESP</span
+              >Services</span
             >
             <h2 class="text-4xl font-bold text-white mb-4">
-              Advanced <span class="text-purple-400">ESP</span>
+              Pixel <span class="text-purple-400">Services</span>
             </h2>
             <p class="text-gray-300 text-lg">
-              Gain the ultimate advantage with player and vehicle ESP – track
-              movements, identify threats, and never be caught off guard again!
+              Skip the grind and unlock everything in just 30 minutes. All our
+              services are delivered instantly and securely – no waiting days or
+              weeks.
             </p>
           </div>
         </div>
@@ -478,7 +340,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- How it Works -->
     <section
@@ -503,12 +365,12 @@
           >
             <div class="mb-6">
               <img
-                src="https://placehold.co/400x250/png?text=Step+1"
-                class="rounded-lg mx-auto"
+                src="Images/shopping.png"
+                class="rounded-lg mx-auto w-[150px] border-purple-400"
               />
             </div>
             <span class="text-purple-400 font-semibold text-sm">STEP 1</span>
-            <h3 class="text-xl font-bold text-white mt-2">Get Eulen</h3>
+            <h3 class="text-xl font-bold text-white mt-2">Get Pixel</h3>
             <p class="text-gray-300 mt-3">
               Make the payment using one of the available payment methods.
             </p>
@@ -520,8 +382,8 @@
           >
             <div class="mb-6">
               <img
-                src="https://placehold.co/400x250/png?text=Step+2"
-                class="rounded-lg mx-auto"
+                src="Images/email.png"
+                class="rounded-lg mx-auto w-[350px] border-purple-400"
               />
             </div>
             <span class="text-purple-400 font-semibold text-sm">STEP 2</span>
@@ -540,15 +402,15 @@
           >
             <div class="mb-6">
               <img
-                src="https://placehold.co/400x250/png?text=Step+3"
-                class="rounded-lg mx-auto"
+                src="Images/video-game.png"
+                class="rounded-lg mx-auto w-[150px] border-purple-400"
               />
             </div>
             <span class="text-purple-400 font-semibold text-sm">STEP 3</span>
             <h3 class="text-xl font-bold text-white mt-2">Just enjoy it 🎮</h3>
             <p class="text-gray-300 mt-3">
               Simply follow our quick guide, and you’ll be ready to dominate
-              FiveM like never before.
+              in-game like never before.
             </p>
           </div>
         </div>
@@ -723,151 +585,6 @@
       </div>
     </section>
 
-    <!-- Products -->
-    <section
-      class="relative py-24 bg-gradient-to-b from-[#0a0014] to-[#0a0014]/90 overflow-hidden"
-      id="pricing"
-    >
-      <div
-        class="absolute inset-0 bg-[url('Images/grid-me.png')] opacity-10"
-      ></div>
-      <div
-        class="absolute right-0 w-[900px] h-[300px] bg-purple-600 rounded-full blur-[70px] opacity-40 -rotate-45"
-        data-anim="glow"
-      ></div>
-
-      <div class="relative container mx-auto px-6">
-        <h2 class="text-center text-4xl font-bold text-white mb-16 gsap-hidden">
-          Pricing <span class="text-purple-400">Plans</span>
-        </h2>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-          <div
-            class="rounded-2xl border border-purple-500/20 bg-white/5 backdrop-blur-lg p-8 text-center shadow-[0_20px_40px_-10px_rgba(0,0,0,0.6)] gsap-hidden"
-            data-anim="price-card"
-          >
-            <h3 class="text-xl font-bold text-white mb-4">PLAN NAME</h3>
-            <p class="text-4xl font-extrabold text-purple-400 mb-6">
-              $<span class="text-lg font-normal text-gray-400">/DURATION</span>
-            </p>
-            <ul class="text-gray-300 space-y-3 mb-6">
-              <li>✔ FEATURE 1</li>
-              <li>✔ FEATURE 2</li>
-              <li>✔ FEATURE 3</li>
-            </ul>
-            <p class="text-gray-400 mb-4">Stock: STOCK_NUMBER</p>
-            <a
-              href="#"
-              class="bg-gradient-to-r from-purple-500 to-indigo-500 px-6 py-2 rounded-full text-sm font-semibold hover:opacity-90"
-              >Choose Plan</a
-            >
-          </div>
-          <div
-            class="rounded-2xl border border-purple-500/20 bg-white/5 backdrop-blur-lg p-8 text-center shadow-[0_20px_40px_-10px_rgba(0,0,0,0.6)] gsap-hidden"
-            data-anim="price-card"
-          >
-            <h3 class="text-xl font-bold text-white mb-4">PLAN NAME</h3>
-            <p class="text-4xl font-extrabold text-purple-400 mb-6">
-              $<span class="text-lg font-normal text-gray-400">/DURATION</span>
-            </p>
-            <ul class="text-gray-300 space-y-3 mb-6">
-              <li>✔ FEATURE 1</li>
-              <li>✔ FEATURE 2</li>
-              <li>✔ FEATURE 3</li>
-            </ul>
-            <p class="text-gray-400 mb-4">Stock: STOCK_NUMBER</p>
-            <a
-              href="#"
-              class="bg-gradient-to-r from-purple-500 to-indigo-500 px-6 py-2 rounded-full text-sm font-semibold hover:opacity-90"
-              >Choose Plan</a
-            >
-          </div>
-          <div
-            class="rounded-2xl border border-purple-500/20 bg-white/5 backdrop-blur-lg p-8 text-center shadow-[0_20px_40px_-10px_rgba(0,0,0,0.6)] gsap-hidden"
-            data-anim="price-card"
-          >
-            <h3 class="text-xl font-bold text-white mb-4">PLAN NAME</h3>
-            <p class="text-4xl font-extrabold text-purple-400 mb-6">
-              $<span class="text-lg font-normal text-gray-400">/DURATION</span>
-            </p>
-            <ul class="text-gray-300 space-y-3 mb-6">
-              <li>✔ FEATURE 1</li>
-              <li>✔ FEATURE 2</li>
-              <li>✔ FEATURE 3</li>
-              <!-- Add more features as needed -->
-            </ul>
-            <p class="text-gray-400 mb-4">Stock: STOCK_NUMBER</p>
-            <a
-              href="#"
-              class="bg-gradient-to-r from-purple-500 to-indigo-500 px-6 py-2 rounded-full text-sm font-semibold hover:opacity-90"
-              >Choose Plan</a
-            >
-          </div>
-          <div
-            class="rounded-2xl border border-purple-500/20 bg-white/5 backdrop-blur-lg p-8 text-center shadow-[0_20px_40px_-10px_rgba(0,0,0,0.6)] gsap-hidden"
-            data-anim="price-card"
-          >
-            <h3 class="text-xl font-bold text-white mb-4">PLAN NAME</h3>
-            <p class="text-4xl font-extrabold text-purple-400 mb-6">
-              $<span class="text-lg font-normal text-gray-400">/DURATION</span>
-            </p>
-            <ul class="text-gray-300 space-y-3 mb-6">
-              <li>✔ FEATURE 1</li>
-              <li>✔ FEATURE 2</li>
-              <li>✔ FEATURE 3</li>
-              <!-- Add more features as needed -->
-            </ul>
-            <p class="text-gray-400 mb-4">Stock: STOCK_NUMBER</p>
-            <a
-              href="#"
-              class="bg-gradient-to-r from-purple-500 to-indigo-500 px-6 py-2 rounded-full text-sm font-semibold hover:opacity-90"
-              >Choose Plan</a
-            >
-          </div>
-          <div
-            class="rounded-2xl border border-purple-500/20 bg-white/5 backdrop-blur-lg p-8 text-center shadow-[0_20px_40px_-10px_rgba(0,0,0,0.6)] gsap-hidden"
-            data-anim="price-card"
-          >
-            <h3 class="text-xl font-bold text-white mb-4">PLAN NAME</h3>
-            <p class="text-4xl font-extrabold text-purple-400 mb-6">
-              $<span class="text-lg font-normal text-gray-400">/DURATION</span>
-            </p>
-            <ul class="text-gray-300 space-y-3 mb-6">
-              <li>✔ FEATURE 1</li>
-              <li>✔ FEATURE 2</li>
-              <li>✔ FEATURE 3</li>
-            </ul>
-            <p class="text-gray-400 mb-4">Stock: STOCK_NUMBER</p>
-            <a
-              href="#"
-              class="bg-gradient-to-r from-purple-500 to-indigo-500 px-6 py-2 rounded-full text-sm font-semibold hover:opacity-90"
-              >Choose Plan</a
-            >
-          </div>
-          <div
-            class="rounded-2xl border border-purple-500/20 bg-white/5 backdrop-blur-lg p-8 text-center shadow-[0_20px_40px_-10px_rgba(0,0,0,0.6)] gsap-hidden"
-            data-anim="price-card"
-          >
-            <h3 class="text-xl font-bold text-white mb-4">PLAN NAME</h3>
-            <p class="text-4xl font-extrabold text-purple-400 mb-6">
-              $<span class="text-lg font-normal text-gray-400">/DURATION</span>
-            </p>
-            <ul class="text-gray-300 space-y-3 mb-6">
-              <li>✔ FEATURE 1</li>
-              <li>✔ FEATURE 2</li>
-              <li>✔ FEATURE 3</li>
-            </ul>
-            <p class="text-gray-400 mb-4">Stock: STOCK_NUMBER</p>
-            <a
-              href="#"
-              class="bg-gradient-to-r from-purple-500 to-indigo-500 px-6 py-2 rounded-full text-sm font-semibold hover:opacity-90"
-              >Choose Plan</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Faq -->
     <section class="relative px-6 py-20 text-center" id="faq">
       <div
@@ -885,7 +602,7 @@
         Frequently Asked Question
       </h2>
       <p class="text-gray-400 mb-12" data-anim="faq-item">
-        Find quick answers to common questions about Eulen Cheats for FiveM.
+        Find quick answers to common questions about Pixel2k
       </p>
       <div
         class="grid md:grid-cols-2 gap-4 max-w-4xl mx-auto text-left"
@@ -896,7 +613,7 @@
           @click="open === 1 ? open = null : open = 1"
         >
           <div class="flex justify-between items-center">
-            <h3 class="font-medium">Is EulenCheats safe?</h3>
+            <h3 class="font-medium">Is Pixel Services safe?</h3>
             <span class="text-purple-400 text-xl">+</span>
           </div>
           <div
@@ -904,8 +621,9 @@
             x-transition
             class="mt-2 text-gray-300 text-sm leading-relaxed"
           >
-            Yes ✅. EulenCheats is continuously updated and stealthy, ensuring
-            no global bans while keeping your account safe.
+            Yes. Before releasing any product or service, we thoroughly test it
+            through multiple banwaves to ensure safety and reliability for our
+            users.
           </div>
         </div>
         <div
@@ -913,7 +631,7 @@
           @click="open === 2 ? open = null : open = 2"
         >
           <div class="flex justify-between items-center">
-            <h3 class="font-medium">How to buy and receive Eulen?</h3>
+            <h3 class="font-medium">Can I test before buying?</h3>
             <span class="text-purple-400 text-xl">+</span>
           </div>
           <div
@@ -921,8 +639,9 @@
             x-transition
             class="mt-2 text-gray-300 text-sm leading-relaxed"
           >
-            Simply make your payment through the supported methods, and you’ll
-            receive your license key and instructions instantly via email.
+            No, we don’t offer free trials. However, you can purchase a 1-day
+            key to test the tool. This helps keep the tool safer and reduces the
+            chances of detection.
           </div>
         </div>
         <div
@@ -930,7 +649,7 @@
           @click="open === 3 ? open = null : open = 3"
         >
           <div class="flex justify-between items-center">
-            <h3 class="font-medium">What are the payment methods?</h3>
+            <h3 class="font-medium">What is the 2-in-1?</h3>
             <span class="text-purple-400 text-xl">+</span>
           </div>
           <div
@@ -938,8 +657,9 @@
             x-transition
             class="mt-2 text-gray-300 text-sm leading-relaxed"
           >
-            Eulen supports multiple payment methods such as PayPal, crypto, and
-            other regional options depending on your location.
+            The 2-in-1 is a bundle that combines both Park features and Super
+            Auto Green into one software, giving you the benefits of both in a
+            single package.
           </div>
         </div>
         <div
@@ -947,7 +667,7 @@
           @click="open === 4 ? open = null : open = 4"
         >
           <div class="flex justify-between items-center">
-            <h3 class="font-medium">Is EulenCheats Stream Proof?</h3>
+            <h3 class="font-medium">Do I receive the product instantly?</h3>
             <span class="text-purple-400 text-xl">+</span>
           </div>
           <div
@@ -955,8 +675,9 @@
             x-transition
             class="mt-2 text-gray-300 text-sm leading-relaxed"
           >
-            Absolutely 🎥. EulenCheats is 100% stream proof — nothing will be
-            shown on your live streams or recordings.
+            Yes, as long as you follow the payment instructions correctly,
+            delivery is instant. If you run into any issues, our support team on
+            Discord is ready to assist you.
           </div>
         </div>
         <div
@@ -964,7 +685,7 @@
           @click="open === 5 ? open = null : open = 5"
         >
           <div class="flex justify-between items-center">
-            <h3 class="font-medium">Can I test before I buy?</h3>
+            <h3 class="font-medium">What are the available payment methods?</h3>
             <span class="text-purple-400 text-xl">+</span>
           </div>
           <div
@@ -972,8 +693,10 @@
             x-transition
             class="mt-2 text-gray-300 text-sm leading-relaxed"
           >
-            Unfortunately no trial is offered, but you can check our community
-            reviews and active support to see feedback from other users.
+            On our website, we currently support PayPal (FnF), Apple Pay via
+            iMessage, and Card-to-Crypto payments powered by Hoodpay. If you
+            prefer other payment options such as CashApp, Skrill, or Remitly,
+            you can open a ticket in our Discord server, and we’ll assist you.
           </div>
         </div>
         <div
@@ -981,7 +704,7 @@
           @click="open === 6 ? open = null : open = 6"
         >
           <div class="flex justify-between items-center">
-            <h3 class="font-medium">Can I use Eulen to remove bans?</h3>
+            <h3 class="font-medium">How do I buy through Discord?</h3>
             <span class="text-purple-400 text-xl">+</span>
           </div>
           <div
@@ -989,8 +712,8 @@
             x-transition
             class="mt-2 text-gray-300 text-sm leading-relaxed"
           >
-            ❌ No. Eulen cannot be used to remove server or account bans. It is
-            designed to prevent detection and bans in the first place.
+            Simply join the official Pixel Discord server and create a buying
+            ticket. Our team will guide you through the process.
           </div>
         </div>
         <div
@@ -998,9 +721,7 @@
           @click="open === 7 ? open = null : open = 7"
         >
           <div class="flex justify-between items-center">
-            <h3 class="font-medium">
-              Can I buy a function only? I don’t need the whole package.
-            </h3>
+            <h3 class="font-medium">Where can I find the download?</h3>
             <span class="text-purple-400 text-xl">+</span>
           </div>
           <div
@@ -1008,8 +729,8 @@
             x-transition
             class="mt-2 text-gray-300 text-sm leading-relaxed"
           >
-            No. Eulen is sold as a complete package with all its features — we
-            don’t split functions individually.
+            After purchasing a serial key, you can join our Discord server,
+            where the download file for the menu will be available.
           </div>
         </div>
         <div
@@ -1017,7 +738,7 @@
           @click="open === 8 ? open = null : open = 8"
         >
           <div class="flex justify-between items-center">
-            <h3 class="font-medium">Does Eulen work on Windows 11?</h3>
+            <h3 class="font-medium">Does it work on Windows 11?</h3>
             <span class="text-purple-400 text-xl">+</span>
           </div>
           <div
@@ -1025,7 +746,8 @@
             x-transition
             class="mt-2 text-gray-300 text-sm leading-relaxed"
           >
-            ✅ Yes, Eulen is fully compatible with Windows 10 and Windows 11.
+            Yes, our tool works on both Windows 10 and Windows 11, including the
+            latest 24H2 version.
           </div>
         </div>
       </div>
@@ -1039,19 +761,34 @@
         <div class="gsap-hidden">
           <h1 class="text-2xl font-bold text-white mb-4">PIXEL2K</h1>
           <p class="text-gray-400 text-sm leading-relaxed">
-            The leading choice for enhancing your FiveM experience. Join a
-            community of winners and dominate the game.
+            Pixel's Services provides top-tier modifications for Games, with
+            over 10,000 successful orders. Backed by 24/7 support and instant
+            delivery, we ensure a seamless experience. As a leading game
+            modification supplier, we provide cutting-edge solutions to take
+            your gaming experience to the next level.
           </p>
         </div>
 
         <div class="gsap-hidden">
           <h3 class="text-white font-semibold mb-4">Quick Links</h3>
           <ul class="space-y-3 text-gray-400">
-            <li><a href="#" class="hover:text-purple-400">Features</a></li>
-            <li><a href="#" class="hover:text-purple-400">How it works</a></li>
-            <li><a href="#" class="hover:text-purple-400">Testimonials</a></li>
-            <li><a href="#" class="hover:text-purple-400">Pricing</a></li>
-            <li><a href="#" class="hover:text-purple-400">FAQ</a></li>
+            <li>
+              <a href="#features" class="hover:text-purple-400">Products</a>
+            </li>
+            <li>
+              <a href="#how-it-works" class="hover:text-purple-400"
+                >How it works</a
+              >
+            </li>
+            <li>
+              <a href="#testimonials" class="hover:text-purple-400"
+                >Testimonials</a
+              >
+            </li>
+            <li>
+              <a href="#pricing" class="hover:text-purple-400">Pricing</a>
+            </li>
+            <li><a href="#faq" class="hover:text-purple-400">FAQ</a></li>
           </ul>
         </div>
 
@@ -1083,6 +820,6 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
     <script src="https://unpkg.com/alpinejs" defer></script>
     <script src="index.js"></script>
-    <script src="animation.js"></script>
+    <!-- <script src="animation.js"></script> -->
   </body>
 </html>
