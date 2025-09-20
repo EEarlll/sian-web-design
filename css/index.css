@@ -3,6 +3,13 @@ html {
   scroll-padding-top: 100px;
 }
 
+body {
+  background-color: #0a0014;
+  color: #fff;
+  font-family: "Inter", "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  overflow-x: hidden;
+}
+
 .hero {
   position: relative;
   background-color: #0a0014;
@@ -96,5 +103,5 @@ body::-webkit-scrollbar-thumb {
 }
 
 .custom-shadow {
-  box-shadow: inset 0px -31px 13px -1px rgba(0,0,0,0.64);
+  box-shadow: inset 0px -31px 13px -1px rgba(0, 0, 0, 0.64);
 }
