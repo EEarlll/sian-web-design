@@ -67,6 +67,7 @@
     <!-- Cart Sidebar -->
     <div
       x-show="isCartOpen"
+      x-cloak
       x-transition:enter="transition ease-out duration-300"
       x-transition:enter-start="translate-x-full"
       x-transition:enter-end="translate-x-0"
@@ -219,38 +220,6 @@
           <div
             class="relative bg-black rounded-xl overflow-hidden aspect-video"
           >
-            <!-- <video class="w-full opacity-70" autoplay muted loop playsinline>
-              <source
-                src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video> -->
-            <!-- <video
-              id="my-video"
-              class="video-js w-full h-full rounded-lg"
-              controls
-              preload="auto"
-              data-setup="{}"
-            >
-              <source
-                src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
-                type="video/mp4"
-              />
-              <source
-                src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
-                type="video/webm"
-              />
-              <p class="vjs-no-js">
-                To view this video please enable JavaScript, and consider
-                upgrading to a web browser that
-                <a
-                  href="https://videojs.com/html5-video-support/"
-                  target="_blank"
-                  >supports HTML5 video</a
-                >
-              </p>
-            </video> -->
             <div id="player"></div>
           </div>
 

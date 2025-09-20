@@ -13,7 +13,7 @@ body {
 .hero {
   position: relative;
   background-color: #0a0014;
-  background-image: url("Images/PIXEL2k_banner.gif");
+  background-image: url("../Images/PIXEL2k_banner.gif");
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -105,3 +105,5 @@ body::-webkit-scrollbar-thumb {
 .custom-shadow {
   box-shadow: inset 0px -31px 13px -1px rgba(0, 0, 0, 0.64);
 }
+
+[x-cloak] { display: none !important; }
